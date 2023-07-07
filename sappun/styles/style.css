@@ -1,0 +1,125 @@
+header.top_bnr_bg .top_bnr,
+header #h_top,
+header nav,
+main .sub_bnr,
+main .weekly_best,
+main .sappun_made_bg .sappun_made,
+footer {
+    width: 1300px; margin: 0 auto;
+}
+/* 플로팅버튼 */
+.float_btn {
+    background-color: aqua;
+    position:fixed;
+    right:0; top:50%;
+}
+.float_btn a {
+    background-color:#fff;
+    display:block;
+    height:30px;
+    border:1px solid #aaa;
+    padding:5px;
+    text-align:center;
+}
+.float_btn a:first-child {
+    background-color:#ff7f50;
+    color:#fff
+}
+.float_btn a img {}
+/* header */
+header {background-color: aqua;}
+header .top_bnr_bg {background-color:#ccc;}
+header .top_bnr_bg .top_bnr {
+    text-align:center;
+    height:36px;
+}
+header .top_bnr_bg .top_bnr a {}
+header .top_bnr_bg .top_bnr a span {
+    background-color: aquamarine;
+    font-weight:500;
+    font-size:0.833rem;
+    line-height:36px;
+}
+header #h_top {
+    background-color: blueviolet;
+    height:100px;
+    padding-top:35px;
+}
+header #h_top h1 {
+    text-align:center;
+}
+header #h_top h1 a {}
+header #h_top h1 a img {background-color: cadetblue;}
+header #h_top .lnb_wrap {
+    background-color: chartreuse;
+    float: right;
+}
+header #h_top .lnb_1 {
+    float:left;
+    background-color: chocolate;
+}
+header #h_top .lnb_1 li {
+    float:left;
+    margin-left:15px;
+}
+header #h_top .lnb_1 li:nth-child(3) {}
+header #h_top .lnb_1 li a:nth-child(2) {}
+
+header #h_top .lnb_1 li a {}
+header #h_top .lnb_1 li a img {margin-left:15px;}
+header #h_top .user_menu {float:left;}
+header #h_top .user_menu li {
+    background-color: tomato;
+    float:left;
+    margin-left:15px;
+}
+header #h_top .user_menu li:last-child(4) {margin-left:25px;}
+header #h_top .user_menu li a {}
+header #h_top .user_menu li a img {}
+header nav {
+    background-color:darkgreen ;
+    width:1300px; height:50px;
+}
+header nav ul {}
+header nav ul li {
+    float: left;
+}
+header nav ul li a {
+
+}
+/* main */
+main {background-color: deeppink;}
+/* main-배너1 */
+main .main_bnr {background-color: darksalmon;}
+main .main_bnr a {}
+main .main_bnr a img {}
+/* main-배너2 */
+main .sub_bnr {background-color:hotpink;}
+main .sub_bnr a {}
+main .sub_bnr a img {}
+/* main-상품영역*/
+.weekly_best {background-color: green;}
+main .weekly_best > h2 {background-color: deepskyblue;}
+main .weekly_best ul {background-color: burlywood;}
+main .weekly_best ul li {}
+main .weekly_best ul li a {}
+main .weekly_best ul li .product_info {}
+main .weekly_best ul li .product_info h2 {background-color: yellow;}
+main .weekly_best ul li .product_info p {background-color: chartreuse;}
+main .weekly_best ul li .product_info p em {background-color: cadetblue;}
+main .weekly_best ul li .product_info .size_review {background-color:tomato;}
+main .weekly_best ul li .product_info .size_review span {background-color: lightpink;}
+main .weekly_best ul li .product_info .product_badge span{}
+main .weekly_best ul li .product_info .product_badge span:first-child {background-color: crimson;}
+main .weekly_best ul li .product_info .product_badge span:last-child {background-color: deepskyblue;}
+/* main-sappun made */
+
+main .sappun_made {}
+main .sappun_made h2 {}
+main .sappun_made a {}
+main .sappun_made img {}
+/* footer */
+footer {}
+footer .fnb {}
+footer .fnb a{}
+footer address {}
